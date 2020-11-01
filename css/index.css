@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Mukta&display=swap');
+
+:root {
+    --main-color: black;
+    font-family: 'Mukta', sans-serif;
+}
+
+body{
+    max-width: 1050px;
+    margin: auto;
+}
+
+header .logo {
+    font-family: 'Krona One', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+header .menu-items {
+    flex: 1;
+    justify-content: space-around;
+    display: none;
+}
+
+header .menu-items a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+header .menu-items a:hover {
+    border: 1px solid var(--main-color);
+}
+
+main .presentation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 1px;
+}
+
+main .home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 90px ;
+}
+
+main .content{
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px ;
+}
+
+hr{
+    color: blue;
+    width: 50px;
+    height: 2px;
+    background-color: blue;
+    margin-left: 0;
+}
+main .text{
+ text-align: center;
+}
+
+.text hr{
+    margin-left: 500px;
+}
+
+main .conect{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tone {
+    margin-left: 30px;
+    text-align: left;
+}
+
+
+
+@media (min-width: 769px) {
+
+    header .header-nav {
+        display: flex;
+    }
+
+    header .menu-items { 
+        display: flex;
+        align-items: center
+    }
+
+}
