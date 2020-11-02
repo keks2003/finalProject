@@ -40,13 +40,16 @@ main .presentation{
     align-items: center;
     justify-content: space-around;
     margin-left: 1px;
+    margin-top: 70px;
 }
 
 main .home{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 90px ;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: wheat;
 }
 
 main .content{
@@ -64,7 +67,11 @@ hr{
 }
 main .text{
  text-align: center;
+ margin-top: 70px;
+ margin-bottom: 70px;
 }
+
+
 
 .text hr{
     margin-left: 500px;
@@ -83,6 +90,9 @@ main .conect{
 
 main .service{
  text-align: center;
+ margin-top: 70px;
+ margin-bottom: 70px;
+ background-color: rgba(5, 35, 100, 0.842);
 }
 
 .service hr {
@@ -93,27 +103,80 @@ main .service{
 .object {
     display: flex;
     justify-content: space-around;
-    background: blue;
     margin: 30px;
     text-align: center;
 }
 
 .objects {
     margin: 60px;
-    border: 15px;
-    border-color: white 20px;
+    background-color: rgba(136, 182, 252, 0.733);
+    width: 275px;
+    text-align: center;
 }
 
 .objectss {
     margin: 60px;
+    background-color: rgba(136, 182, 252, 0.733);
+    width: 275px;
+    text-align: center;
 }
 
 .objectsss {
     margin: 60px;
+    background-color: rgba(136, 182, 252, 0.733);
+    width: 275px;
+    text-align: center;
+}
+
+main .statistics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+main .number {  
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+
+main .numbers {
+    border: 5px solid white;
+    color: white;
+    background-color:rgba(3, 25, 71, 0.842);
+    text-indent: 1em;
+}
+
+main .why {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding: 30px;
+  background-color: rgba(235, 231, 231, 0.945);
+}
+
+.why hr {
+    margin-left: 500px;
 }
 
 
 
+
+
+
+
+
+
+
+
+main .map {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.phone {
+margin-left: 90px;
+}
 
 @media (min-width: 769px) {
 
