@@ -81,6 +81,38 @@ main .conect{
     text-align: left;
 }
 
+main .service{
+ text-align: center;
+}
+
+.service hr {
+    margin-left: 500px;
+}
+
+
+.object {
+    display: flex;
+    justify-content: space-around;
+    background: blue;
+    margin: 30px;
+    text-align: center;
+}
+
+.objects {
+    margin: 60px;
+    border: 15px;
+    border-color: white 20px;
+}
+
+.objectss {
+    margin: 60px;
+}
+
+.objectsss {
+    margin: 60px;
+}
+
+
 
 
 @media (min-width: 769px) {
