@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Team IT</title>
   <link rel="stylesheet" href="css/index.css">
+
+
+   <link href="/examples/vendors/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -44,16 +47,18 @@
         <table>
 
           <tr>
-
+<div class="button">
             <td>
               <p>
                 <li><a href="#contact">Get Connected</a></li></p>
             </td>
-
+</div>
+<div class="button">
             <td>
               <p>
                 <li><a href="#тарифи">Pricing</a></li></p>
             </td>
+</div>
 
           </tr>
         </table>
@@ -175,18 +180,21 @@
       </section>
 
       <section>
-      <div>
+      <div class="last">
         <h2>Останні проекти</h2>
+        <hr>
         <p><b>Ми працюємо завжди задля власного вдосконалення</b></p>
       </div>
-     <table>
+      <div class="lastimages">
+      <table>
           <tr>
-            <th><img src="img/blok1.jpg" alt="Blok1" width="150px"></th>
-            <th><img src="img/blok2.jpg" alt="Blok2" width="150"></th>
-            <th><img src="img/blok3.jpg" alt="Blok3" width="150" height="205"></th>
-            <th><img src="img/blok4.jpg" alt="Blok4" width="150" height="205"></th>
+            <th><img src="img/blok1.jpg" alt="Blok1" width="260px"></th>
+            <th><img src="img/blok2.jpg" alt="Blok2" width="260"></th>
+            <th><img src="img/blok3.jpg" alt="Blok3" width="260" height="360"></th>
+            <th><img src="img/blok4.jpg" alt="Blok4" width="260" height="360"></th>
           </tr>
         </table>
+        </div>
       </section>
 
       <section>
@@ -196,6 +204,22 @@
           <h3><b>Дійсне до: Червень 13, 2020</b></h3></p>
         <p>
           <li><a href="#contact">Get Connected</Select></a></li></p>
+
+          <div class="countdown space-top-half padding-top" data-date-time="02/20/2021 10:10:10">
+            <div class="item">
+                <div class="days">14</div>
+                <span class="days_ref">Days</span> </div>
+            <div class="item">
+                <div class="hours">10</div>
+                <span class="hours_ref">Hours</span> </div>
+            <div class="item">
+                <div class="minutes">9</div>
+                <span class="minutes_ref">Mins</span> </div>
+            <div class="item">
+                <div class="seconds">50</div>
+                <span class="seconds_ref">Secs</span> </div>
+        </div>
+</div>
       </section>
 
       <section id="тарифи">
@@ -203,8 +227,9 @@
         <h2>Тарифи</h2>
         <hr>
         <p><h3><b>Виберіть найкращий для вас тариф</b></h3></p>
+      </div>
         <div class="plans">
-       <div>
+       <div class="page">
               <h2>Користувач</h2>
               <p>$75</p>
               <p>на місяць</p>
@@ -213,7 +238,7 @@
               <p>
                 <li><a href="#contact">Select plan</a></li></p>
        </div>
-       <div>
+       <div class="pageone">
               <h2>Office</h2>
               <p>$125</p>
               <p>на місяць</p>
@@ -224,7 +249,7 @@
                 <li><a href="#contact">Select plan</a></li>
               </p>
        </div>
-       <div>
+       <div class="pagetwo">
             
               <h2>PRO</h2>
               <p>$250</p>
@@ -268,8 +293,11 @@
       </section>
 
       <section>
+      <div class="team">
         <h2>Наша команда</h2>
+        <hr>
         <p><h3>Кожен з наших працівників працює кожен день, задля того щоб бути впевненим, що ви отримаєте бажаний результат, навіть за короткий термін.</h3></p>
+      </div>
         <table>
           <tr>
             <th>
@@ -380,6 +408,7 @@
     <p>© Created by Team IT</p>
 
   </footer>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
