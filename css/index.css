@@ -159,6 +159,34 @@ main .why {
     margin-left: 500px;
 }
 
+.desire {
+    background-image: url(../img/desiree.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.desiretext {
+    text-align: center;
+    padding: 90px;
+    padding-right: 700px;
+}
+
+.desire hr {
+    margin-left: 100px;
+}
+
+.plan {
+    align-items: center;
+}
+
+.plans {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+
 
 
 
