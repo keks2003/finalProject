@@ -6,9 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Team IT</title>
   <link rel="stylesheet" href="css/index.css">
-
-
-   <link href="/examples/vendors/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -169,8 +166,7 @@
         <hr>
         <p><b>Приєднайтесь зараз та отримайте 30% знижку на перше замовлення</b></p>
         <p>
-       
-        <button class="btn" onclick="window.location.href = '#contact';">Send a Request</button>
+       <button class="btn" onclick="window.location.href = '#contact';">Send a Request</button>
         </p>
 
 
@@ -237,7 +233,8 @@
               <p>- карта постійного клієнта зі знижкою 5% -</p>
               <p>- особистий кабінет -</p>
               <p>
-                <li><a href="#contact">Select plan</a></li></p>
+                <button class="btn" onclick="window.location.href = '#contact';">Select plan</button>
+                </p>
        </div>
        <div class="pageone">
               <h2>Office</h2>
@@ -247,7 +244,7 @@
               <p>- можливість відвідувати наші онлайн-вебінари -</p>
               <p>- особистий кабінет -</p>
               <p>
-                <li><a href="#contact">Select plan</a></li>
+                <button class="btn" onclick="window.location.href = '#contact';">Select plan</button>
               </p>
        </div>
        <div class="pagetwo">
@@ -259,7 +256,7 @@
               <p>- можливість відвідувати наші онлайн-вебінари та курси -</p>
               <p>- особистий кабінет -</p>
               <p>
-                <li><a href="#contact">Select plan</a></li>
+              <button class="btn" onclick="window.location.href = '#contact';">Select plan</button>
               </p>
        </div>
             </div>
@@ -377,6 +374,44 @@
           <p>Ні. Він уже включений в вартість тарифу.</p>
         </div>
       </section>
+        -----------------------------------------------------------------------------------------------------------------
+<section>
+<div class="faq">
+<div class="faq1">
+        <h2>FAQ</h2>
+        <h3>Огляньте питання, які найчастіше задають наші клієнти. 
+Якщо ви досі маєте якісь питання або хочете уточнити деталі, заповніть контактну форму або зателефонуйте до нас.</h3>
+<div class="demo">
+    <input class="hide" id="hd-1" type="checkbox">
+    <label for="hd-1">Я не знаю, який план мені потрібен. Ви допоможете мені вибрати?</label>
+    <div>
+       Перед підключенням ми завжди радимо клієнту та допомагаємо вибрати оптимальний варіант для його потреб.
+    </div>
+        <br/>
+        <br/>
+    <input class="hide" id="hd-2" type="checkbox">
+    <label for="hd-2">Ви робите всі сайти одинаковими?</label>
+    <div>
+Ні. Ми створюємо сайт відповідно до вимог клієнта.
+    </div>
+     <br/>
+        <br/>
+    <input class="hide" id="hd-3" type="checkbox">
+    <label for="hd-3">Чи можу я заморозити свій аккаунт?</label>
+    <div>
+Team IT пропонує послугу заморозки на 30 днів. Щоб заморозити обліковий запис, зв’яжіться з нашою командою підтримки.
+    </div>
+       <br/>
+        <br/>
+    <input class="hide" id="hd-4" type="checkbox">
+    <label for="hd-4">Чи потрібно буде оплачувати ще податок на тариф?</label>
+    <div>
+Ні. Він уже включений в вартість тарифу.
+    </div>
+</div>
+</div>
+</div>
+</section>
 
       <section>
       <div class="map">
@@ -395,20 +430,25 @@
       </div>
       </section>
   </main>
-  <footer>
-    <nav>
-      <ul>
-        <li><a href="#home">Про нас</a></li>
-        <li><a href="#service">Послуги</a></li>
-        <li><a href="#тарифи">Тарифи</a></li>
-        <li><a href="#feedback">Відгуки</a></li>
-        <li><a href="#contact">Наші контакти</a></li>
-      </ul>
-    </nav>
-    <hr>
-    <p>© Created by Team IT</p>
 
+
+  <footer>
+  <div class="footer">
+	<div class="menu-items">
+				<a href="#home">Home</a> 
+                <a href="#service">Послуги</a> 
+                <a href="#тарифи">Тарифи</a> 
+                <a href="#feedback">Відгуки</a> 
+                <a href="#contact">Наші контакти</a>
+</div>
+<div class="footer-hr">
+    <hr>
+</div>
+<p>© Created by Team IT</p>
+  </div>
   </footer>
+
+
   <script src="js/index.js"></script>
 </body>
 

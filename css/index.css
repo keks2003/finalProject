@@ -209,6 +209,7 @@ main .why {
 .page {
     background-color: rgb(26, 71, 170);
     margin-right: 20px;
+    height: 450px;
 }
 
 .pageone {
@@ -246,6 +247,16 @@ main .why {
 }
 
 
+main .faq{
+    background: url("../img/faq.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 70px;
+}
+
+main .faq .faq1{
+   padding: 20px 30px 0px 30px;
+}
 
 
 
@@ -272,8 +283,77 @@ main .why {
     top: 22px;
   }
 
-
-
+/*FAQ*/
+.demo {
+    max-width: 1100px;
+    padding: 0 20px 70px;
+   
+}
+/* скрываем чекбоксы и блоки с содержанием */
+.hide,
+.hide + label ~ div {
+    display: none;
+}
+/* вид текста label */
+.hide + label {
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: inline-block;
+}
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+    color: black;
+    border-bottom: 0;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: block; 
+    background: #efefef;
+    -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
+    -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
+    box-shadow: inset 3px 3px 10px #7d8e8f;
+    margin-left: 20px;
+    padding: 10px;
+    /* чуточку анимации при появлении */
+     -webkit-animation:fade ease-in 0.5s; 
+     -moz-animation:fade ease-in 0.5s;
+     animation:fade ease-in 0.5s; 
+}
+/* анимация при появлении скрытых блоков */
+@-moz-keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@-webkit-keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }   
+}
+.hide + label:before {
+    background-color: #1e90ff;
+    color: #fff;
+    content: "\002B";
+    display: block;
+    float: left;
+    font-size: 14px; 
+    font-weight: bold;
+    height: 16px;
+    line-height: 16px;
+    margin: 3px 5px;
+    text-align: center;
+    width: 16px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.hide:checked + label:before {
+    content: "\2212";
+}
 
 
 
@@ -285,6 +365,46 @@ main .map {
 .phone {
 margin-left: 90px;
 }
+
+footer .footer{
+    background-color: blueviolet;
+    margin-top: 70px;
+}
+
+
+
+
+
+footer .menu-items {
+   display: flex;
+   justify-content: space-around;
+   padding: 0% 3% 0% 50%;
+   
+}
+footer .menu-items a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    border: 1px solid transparent;
+    padding: 5px;
+}
+footer .menu-items a:hover {
+    border: 1px solid var(--main-color);
+}
+
+
+
+footer .footer-hr hr{
+    height: 0,1px;
+    background-color: rgb(252, 252, 252);
+    width: 1000px;
+    margin-left: 50px;
+}
+footer p{
+     margin-left: 50px;
+}
+
 
 @media (min-width: 769px) {
 
